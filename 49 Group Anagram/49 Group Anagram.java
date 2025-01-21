@@ -7,10 +7,6 @@
 class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
         
-        if(strs.length == 0){
-            return new ArrayList();
-        }
-        
         Map<String, List> ansMap = new HashMap<>();
         
         int[] count = new int[26];
